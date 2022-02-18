@@ -1,3 +1,15 @@
+# Git command
+
+ls -a
+rm -rf .git
+
+cd ..
+
+# React arrow function
+
+rafce
+npm i react-router-dom react-router-bootstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
