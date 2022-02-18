@@ -9,6 +9,18 @@ cd ..
 
 rafce
 npm i react-router-dom react-router-bootstrap
+npm i dotenv
+
+# Things to remember
+
+const product = products.find(p => p.\_id === match.params.id)
+
+"scripts": {
+"start": "node backend/server",
+"server": "nodemon backend/server",
+"client": "npm start --prefix frontend",
+"dev": "concurrently \"npm run server\" \"npm run client\""
+},
 
 # Getting Started with Create React App
 
