@@ -2,14 +2,16 @@
 
 ls -a
 rm -rf .git
-
 cd ..
 
-# React arrow function
+# React
 
 rafce
 npm i react-router-dom react-router-bootstrap
 npm i dotenv
+npm i mongoose
+npm i bcryptjs
+npm i express-async-handler
 
 # Things to remember
 
