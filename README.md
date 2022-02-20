@@ -12,6 +12,7 @@ npm i dotenv
 npm i mongoose
 npm i bcryptjs
 npm i express-async-handler
+npm i redux react-redux redux-thunk redux-devtools-extension
 
 # Things to remember
 
