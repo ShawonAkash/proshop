@@ -15,6 +15,7 @@ npm i express-async-handler
 npm i redux react-redux redux-thunk redux-devtools-extension
 npm i jsonwebtoken
 npm i react-paypal-button-v2
+npm i multer
 
 # Things to remember
 
