@@ -16,6 +16,8 @@ npm i redux react-redux redux-thunk redux-devtools-extension
 npm i jsonwebtoken
 npm i react-paypal-button-v2
 npm i multer
+npm i morgan
+npm i react-helmet
 
 # Things to remember
 
