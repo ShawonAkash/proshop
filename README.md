@@ -19,6 +19,10 @@ npm i multer
 npm i morgan
 npm i react-helmet
 
+#heroku
+heroku login
+heroku create proshop
+
 # Things to remember
 
 const product = products.find(p => p.\_id === match.params.id)
