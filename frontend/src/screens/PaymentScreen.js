@@ -10,7 +10,7 @@ const PaymentScreen = ({ history }) => {
   const { shippingAddress } = cart
 
   if (!shippingAddress) {
-    history.puh('/shipping')
+    history.push('/shipping')
   }
 
   const [paymentMethod, setPaymentMethod] = useState('Paypal')
@@ -41,14 +41,14 @@ const PaymentScreen = ({ history }) => {
               onChange={(e) => setPaymentMethod(e.target.value)}
             ></Form.Check>
 
-            {/* <Form.Check
+            <Form.Check
               type='radio'
-              label='Stripe'
+              label='Cash On Delivery'
               id='Stripe'
               name='paymentMethod'
-              value='Stripe'
+              value='CashOnDelivery'
               onChange={(e) => setPaymentMethod(e.target.value)}
-            ></Form.Check> */}
+            ></Form.Check>
           </Col>
         </Form.Group>
         <Button className='mt-2' type='submit' variant='primary'>
